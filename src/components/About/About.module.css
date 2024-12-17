@@ -1,0 +1,47 @@
+.about {
+  padding: 6rem 2rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.aboutContent {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+
+.aboutText {
+  flex: 1;
+}
+
+.aboutText p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.aboutImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.imagePlaceholder {
+  font-size: 8rem;
+  background-color: #f5f5f5;
+  height: 300px;
+  width: 300px;
+}
+
+.imagePlaceholder img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
+}

@@ -1,0 +1,112 @@
+.experience {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+}
+
+.experience h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.experienceList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.experienceItem {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.experienceItem:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.experienceItem::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background: linear-gradient(to bottom, #007bff, #00a6ff);
+}
+
+.experienceItem h3 {
+  color: #333;
+  margin-bottom: 0.25rem;
+  font-size: 1.4rem;
+}
+
+.experienceItem h4 {
+  color: #666;
+  margin-bottom: 0.25rem;
+  font-size: 1.1rem;
+}
+
+.experienceItem .period {
+  color: #007bff;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  display: inline-block;
+  padding: 0.2rem 0.75rem;
+  background-color: rgba(0, 123, 255, 0.1);
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+
+.achievementsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.achievementItem {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #555;
+  line-height: 1.4;
+  transition: transform 0.2s ease;
+}
+
+
+.achievementItem::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #007bff;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+}
+
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 2rem 1rem;
+  }
+  
+  .experienceItem {
+    padding: 1.25rem;
+  }
+  
+  .experienceItem h3 {
+    font-size: 1.2rem;
+  }
+  
+  .experienceItem h4 {
+    font-size: 1rem;
+  }
+  
+  .achievementItem {
+    padding-left: 1.25rem;
+  }
+}

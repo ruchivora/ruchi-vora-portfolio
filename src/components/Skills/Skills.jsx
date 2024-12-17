@@ -1,6 +1,5 @@
-import React from 'react';
 import { FaReact, FaGit, FaNodeJs } from 'react-icons/fa';
-import { SiRedux, SiJavascript, SiHtml5, SiCss3 } from 'react-icons/si';
+import { SiRedux, SiJavascript, SiHtml5, SiCss3, SiJest } from 'react-icons/si';
 import { MdDevices } from 'react-icons/md';
 import { TbApi } from 'react-icons/tb';
 import styles from './Skills.module.css';
@@ -12,10 +11,11 @@ export function Skills() {
     { name: 'JavaScript', icon: <SiJavascript className="skill-icon" /> },
     { name: 'HTML5', icon: <SiHtml5 className="skill-icon" /> },
     { name: 'CSS3', icon: <SiCss3 className="skill-icon" /> },
-    { name: 'Git', icon: <FaGit className="skill-icon" /> },
-    { name: 'Responsive Design', icon: <MdDevices className="skill-icon" /> },
     { name: 'RESTful APIs', icon: <TbApi className="skill-icon" /> },
-    { name: 'Node.js', icon: <FaNodeJs className="skill-icon" /> }
+    { name: 'Node.js', icon: <FaNodeJs className="skill-icon" /> },
+    { name: 'Git', icon: <FaGit className="skill-icon" /> },
+    { name: 'Jest', icon: <SiJest className='skill-icon'/> },
+    { name: 'Responsive Design', icon: <MdDevices className="skill-icon" /> },
   ];
 
   return (

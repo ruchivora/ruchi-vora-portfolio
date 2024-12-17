@@ -75,7 +75,6 @@
   margin-bottom: 0.5rem;
   color: #555;
   line-height: 1.4;
-  transition: transform 0.2s ease;
 }
 
 
@@ -85,7 +84,6 @@
   left: 0;
   color: #007bff;
   font-weight: bold;
-  transition: transform 0.2s ease;
 }
 
 

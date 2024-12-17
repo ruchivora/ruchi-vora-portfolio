@@ -33,13 +33,11 @@ export function Blog() {
         {blogs.map((blog, index) => (
           <article key={index} className={styles.blogItem}>
             <h3>{blog.title}</h3>
-            
             <div className={styles.stats}>
               <div className={styles.date}>{blog.date}</div>
               <div className={styles.iconWrapper}><PiHandsClappingThin size={14}/>&nbsp;</div>  
               <div className={styles.clapCount}>{blog.claps}</div>
             </div>
-            
             <p className={styles.description}>{blog.description}</p>
             <a href={blog.link} className={styles.readMore}>Read More</a>
           </article>

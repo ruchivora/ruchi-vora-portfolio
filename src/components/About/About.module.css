@@ -53,4 +53,8 @@
     gap: 4rem;
     align-items: center;
   }
+
+  .about {
+    padding: 8rem 2rem 2rem;
+  }
 }

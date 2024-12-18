@@ -37,3 +37,18 @@
 .navLinks a:hover {
   color: #007bff;
 }
+
+@media (max-width: 768px) {
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  .navLinks {
+    gap: 1rem;
+  }
+
+  .navLinks a {
+    font-size: 1rem;
+  }
+}

@@ -40,15 +40,8 @@
 
 @media (max-width: 768px) {
 
-  .logo {
-    font-size: 1rem;
-  }
-
   .navLinks {
-    gap: 1rem;
+    display: none;
   }
 
-  .navLinks a {
-    font-size: 1rem;
-  }
 }

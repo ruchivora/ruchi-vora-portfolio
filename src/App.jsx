@@ -13,8 +13,8 @@ function App() {
     <>
       <Header/>
       <About/>
-      <Experience/>
       <Skills/>
+      <Experience/>
       <Blog/>
       <Footer/>
     </>

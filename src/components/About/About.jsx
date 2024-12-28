@@ -10,7 +10,7 @@ export function About() {
         <div className={styles.aboutText}>
           <p>Hello! I'm a passionate <strong>Software Developer</strong> with <strong>3.7 years of experience</strong> crafting responsive, user-centric web applications.</p>
           <p>I specialize in building scalable and functional web experiences using modern technologies like <strong>React, Redux, JavaScript, HTML, and CSS.</strong> </p>
-          <p>In addition to frontend development, I have also contributed to back-end tasks with technologies like Node.js, enabling me to collaborate effectively across the <strong>full stack</strong>, and deliver end-to-end solutions.</p>
+          <p>In addition to frontend development, I have also contributed to back-end tasks with technologies like <strong>Node.js,</strong> enabling me to collaborate effectively across the <strong>full stack</strong>, and deliver end-to-end solutions.</p>
           <p>Beyond coding, I love sharing my knowledge through writing. With  <strong>over 400 subscribers on Medium</strong>, I write about tech to help others in their learning journey, fostering a community of <strong>curious developers.</strong></p>
           <p>I'm always <strong>open to exploring new technologies</strong> and continuously improving my skills to stay ahead in the ever-evolving tech landscape.</p>
           <SocialLinks />
